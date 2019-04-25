@@ -23,18 +23,18 @@ Steps to deploy in Tomcat:
 5. Start tomcat
 
 Rest endpoints guide:
- - Base URL for all endpoints would be http://<hostname>:<port>/<warName>/rest
+ - Base URL for all endpoints would be http://\<hostname\>:\<port\>/\<warName\>/rest
 
-1./listContents : Lists contents of a folder in DropBox
+1. **/listContents** : Lists contents of a folder in DropBox
   Parameters
   - token: OAuth token
   - path: path to folder in DropBox separated by "/", blank for root.
-2. /download  : Download a file in DropBox
+2. **/download**  : Download a file in DropBox
   Parameters
   - token: OAuth token
   - fileToDownload: path to file in DropBox separated by "/"
   - path: path to local file (will be overwritten)
-3. /upload  : Upload a file to DropBox
+3. **/upload**  : Upload a file to DropBox
   Parameters
   - token: OAuth token
   - path: path to file in DropBox separated by "/"
