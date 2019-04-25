@@ -14,7 +14,7 @@ public class TestClient {
 	public static void main(String[] args) {
 
 		// System.out.println(listContents(""));
-		// System.out.println(download("/cloudEle/new.txt","C:\\dev\\new.txt"));
+		// System.out.println(download("/ce/new.txt","C:\\dev\\new.txt"));
 		System.out.println(uploadFile("C:\\dev\\new.txt", "/ce/new4.txt"));
 		System.out.println(uploadContent("hello", "/ce/new5.txt"));
 	}
