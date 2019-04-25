@@ -15,8 +15,8 @@ public class TestClient {
 
 		// System.out.println(listContents(""));
 		// System.out.println(download("/cloudEle/new.txt","C:\\dev\\new.txt"));
-		System.out.println(uploadFile("C:\\dev\\new.txt", "/cloudEle/new4.txt"));
-		System.out.println(uploadContent("hello", "/cloudEle/new5.txt"));
+		System.out.println(uploadFile("C:\\dev\\new.txt", "/ce/new4.txt"));
+		System.out.println(uploadContent("hello", "/ce/new5.txt"));
 	}
 
 	public static String listContents(String path) {
