@@ -1,7 +1,7 @@
 # fsClient
 Rest client to access file system in DropBox
 
-Steps to deploy in Tomcat:
+## Steps to deploy in Tomcat:
 1. Download the complete source code.
 2. Zip the source code to a war file by executing
   jar -cvf fsClient.war *
@@ -24,7 +24,7 @@ Steps to deploy in Tomcat:
 ```  
 5. Start tomcat
 
-Rest endpoints guide:
+## Rest service endpoints :
  - Base URL for all endpoints would be http://\<hostname\>:\<port\>/\<warName\>/rest
 
 1. **/listContents** : Lists contents of a folder in DropBox.  
@@ -35,7 +35,7 @@ Rest endpoints guide:
 	- Parameters
   		- token: OAuth token
   		- fileToDownload: path to file in DropBox separated by "/"
-  		- path: path to local file (will be overwritten)
+  		- path: path to local file (will be overwritten if already exists)
 3. **/upload**  : Upload a file to DropBox.  
 	- Parameters
   		- token: OAuth token
