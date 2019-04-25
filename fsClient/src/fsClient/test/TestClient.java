@@ -9,7 +9,7 @@ import java.nio.file.Files;
 import fsClient.api.DropBoxAPI;
 
 public class TestClient {
-	private static String token = "5J21J11JF8AAAAAAAAAAz0B1AZfIuaqctnO5vO9CAP_zGTumdlsq5hLMjpRxSOLg";
+	private static String token = "";
 
 	public static void main(String[] args) {
 
