@@ -1,10 +1,12 @@
 # fsClient
 Rest client to access file system in DropBox
 
-## Steps to deploy in Tomcat:
+## Steps to deploy in Tomcat
 1. Download the complete source code.
-2. Zip the source code to a war file by executing
-  jar -cvf fsClient.war *
+2. Zip the source code to a war file using cmd.
+```
+	jar -cvf fsClient.war *
+```
 3. Place the war under CATALINA_HOME/webapps
 4. Add following servlet and servlet mapping to CATALINA_HOME/conf/web.xml
   ```xml
@@ -24,7 +26,7 @@ Rest client to access file system in DropBox
 ```  
 5. Start tomcat
 
-## Rest service endpoints :
+## Rest service endpoints
  - Base URL for all endpoints would be http://\<hostname\>:\<port\>/\<warName\>/rest
 
 1. **/listContents** : Lists contents of a folder in DropBox.  
